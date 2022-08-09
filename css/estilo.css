@@ -115,9 +115,9 @@ input, select {
 main>h2,main>section>h1, main>h1{
     margin: 20px;
 }
-.container{
+.cuerpo{
     display: grid;
-    grid-template-rows: 165px auto 120px
+    grid-template-rows: 165px auto 120px;
 }
 header{
     display: grid;
@@ -146,7 +146,7 @@ footer{
     gap: 15px;
     margin: 10px;
 }
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .portada{
         display: flex;
         flex-direction: column;
@@ -158,11 +158,19 @@ footer{
     main img{
         width: 50%;
     } 
-}    
+} */   
 img:hover{
     transform: scale(1.05) ;
     transition-duration: 0.5s;
 }
-
+.card{
+    align-items: center;
+    }
+.card-img-top{
+    border-radius: 100%;
+    width: 70px;
+    height: auto;
+    margin-top: 15px;
+}
 
 
