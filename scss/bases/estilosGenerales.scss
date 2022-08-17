@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #ebf9ff;
+}   
+header{
+    display: grid;
+    grid-template-rows: 125px 40px;
+    background-color: $celeste;
+}
+main{
+    text-align: center;
+    min-height: calc(100vh - 363px);
+}
+article{
+    padding: 15px;
+    display: inline-block;
+    width: 50%;
+    font-size: initial;
+}
+h1{
+    font-size: 35px;
+    animation: Titulos ease-in-out 1s;
+}             
+img:hover{
+    transform: scale(1.05) ;
+    transition-duration: 0.5s;
+}
+footer{
+    margin: 15px;
+}    
