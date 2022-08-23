@@ -1,0 +1,6 @@
+@mixin redesSociales($display,$fdirection,$jcontent) {
+    display: $display;
+    flex-direction: $fdirection;
+    justify-content: $jcontent;
+    
+}

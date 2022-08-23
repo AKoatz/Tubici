@@ -6,12 +6,12 @@
 body{
     text-align: center;
     font-family: 'Lato', sans-serif;
-    background-color: #ebf9ff;
+    background-color: map-get($colores , background);
 }   
 header{
     display: grid;
     grid-template-rows: 125px 40px;
-    background-color: $celeste;
+    background-color: map-get($colores , celeste);
 }
 main{
     text-align: center;

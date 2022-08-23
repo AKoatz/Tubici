@@ -10,20 +10,22 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: $logo;
+        background-color: map-get($colores , logo);
     }   
     li{
         a{
-        text-decoration: none;
-        padding: 10px;
-        color: rgb(0, 153, 255);
-        transition: all linear 0.2s;
-        font-size: 16px;
-        line-height: 40px;
+            text-decoration: none;
+            padding: 10px;
+            color: map-get($colores , azul);
+            transition: all linear 0.2s;
+            font-size: 16px;
+            line-height: 40px;
+
+            &:hover{
+                color: map-get($colores , violeta)!important;
+            } 
         }
-        &:hover{
-            color: $violeta;
-        }   
+          
     }
 }
 main{
@@ -71,9 +73,7 @@ main{
 }
 footer{
     .redes{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include redesSociales(flex, row, center); 
         gap: 15px;
         margin: 10px;
     }
