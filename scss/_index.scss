@@ -6,12 +6,7 @@ body{
 }
 
 header{
-    #logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: map-get($colores , logo);
-    }   
+    
     li{
         a{
             text-decoration: none;
@@ -73,8 +68,9 @@ main{
 }
 footer{
     .redes{
-        @include redesSociales(flex, row, center); 
+        @extend #logo;
         gap: 15px;
         margin: 10px;
+        background-color: initial;
     }
 }

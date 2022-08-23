@@ -16,6 +16,13 @@ header {
   background-color: #ade5e5;
 }
 
+#logo, footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #95d9d9;
+}
+
 main {
   text-align: center;
   min-height: calc(100vh - 363px);
@@ -47,12 +54,6 @@ body .cuerpo {
   grid-template-rows: 165px auto 120px;
 }
 
-header #logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #95d9d9;
-}
 header li a {
   text-decoration: none;
   padding: 10px;
@@ -103,11 +104,9 @@ main section .card-img-top {
 }
 
 footer .redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   gap: 15px;
   margin: 10px;
+  background-color: initial;
 }
 
 /*# sourceMappingURL=estilos.css.map */

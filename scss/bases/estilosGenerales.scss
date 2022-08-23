@@ -13,6 +13,10 @@ header{
     grid-template-rows: 125px 40px;
     background-color: map-get($colores , celeste);
 }
+#logo{
+        @include logo (flex, center, center);
+        background-color: map-get($colores , logo);
+}
 main{
     text-align: center;
     min-height: calc(100vh - 363px);

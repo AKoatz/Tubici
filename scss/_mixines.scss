@@ -1,6 +1,6 @@
-@mixin redesSociales($display,$fdirection,$jcontent) {
-    display: $display;
-    flex-direction: $fdirection;
-    justify-content: $jcontent;
+@mixin logo($display, $jcontent, $aitems) {
+        display: $display;
+        justify-content: $jcontent;
+        align-items: $aitems;
     
 }
