@@ -64,6 +64,26 @@ footer {
   margin: 15px;
 }
 
+main > table {
+  margin: auto;
+  margin-top: 30px;
+  caption-side: top;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 70px;
+  animation: Titulos ease-in-out 1s;
+}
+
+td, th, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding: 15px;
+}
+
 body .cuerpo {
   display: grid;
   grid-template-rows: 165px auto 120px;
