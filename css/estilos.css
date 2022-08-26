@@ -40,6 +40,21 @@ h1 {
   animation: Titulos ease-in-out 1s;
 }
 
+@keyframes Titulos {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  65% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 img:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
@@ -75,14 +90,14 @@ main .carousel img {
 main section h1 {
   margin: 20px;
 }
-.portada {
+main section .portada {
   font-size: 0;
   margin: 0 20%;
 }
-.destacado {
+main section article .destacado {
   width: 100%;
 }
-.destacado img {
+main section article .destacado img {
   height: auto;
 }
 main section article h2 {
