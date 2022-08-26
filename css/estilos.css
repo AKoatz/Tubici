@@ -75,14 +75,14 @@ main .carousel img {
 main section h1 {
   margin: 20px;
 }
-main section .portada {
+.portada {
   font-size: 0;
   margin: 0 20%;
 }
-main section article .destacado {
+.destacado {
   width: 100%;
 }
-main section article .destacado img {
+.destacado img {
   height: auto;
 }
 main section article h2 {
