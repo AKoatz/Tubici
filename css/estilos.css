@@ -148,4 +148,12 @@ main>section>ol{
   width: 100px;
   margin: auto;
 }
+label {
+  width: 135px;
+  display: inline-block;
+  text-align: right;
+}
+input, select {
+  width: 130px;
+}
 /*# sourceMappingURL=estilos.css.map */
