@@ -144,5 +144,8 @@ footer .redes {
   margin: 10px;
   background-color: initial;
 }
+main>section>ol{
+  width: 100px;
+  margin: auto;
 
 /*# sourceMappingURL=estilos.css.map */
