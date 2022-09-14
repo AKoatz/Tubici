@@ -12,13 +12,8 @@ body {
 
 header {
   display: grid;
-  grid-template-rows: 125px 40px;
+  grid-template-rows: 125px auto;
   background-color: #ade5e5;
-}
-
-.menuHamb {
-  padding-top: 0 !important;
-  z-index: 500;
 }
 
 #logo, footer .redes {
@@ -90,9 +85,13 @@ td, th, tr {
   padding: 15px;
 }
 
+p {
+  font-size: initial;
+}
+
 body .cuerpo {
   display: grid;
-  grid-template-rows: 165px auto 120px;
+  grid-template-rows: auto auto 120px;
 }
 
 header li a {
@@ -130,6 +129,9 @@ main section.portada article img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+main section.portada img {
+  width: 100%;
 }
 main section.container .card {
   align-items: center;
@@ -204,6 +206,7 @@ main .datos iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10% !important;
   }
   .portada article {
     width: 100%;

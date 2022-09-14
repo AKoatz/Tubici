@@ -1,7 +1,7 @@
 body{
     .cuerpo{
         display: grid;
-        grid-template-rows: 165px auto 120px;
+        grid-template-rows: auto auto 120px;
     }
 }
 
@@ -50,6 +50,9 @@ main{
                 height: 200px;
                 object-fit: cover; 
             }
+        }
+        img{
+            width: 100%;
         }
     }    
     section.container{
