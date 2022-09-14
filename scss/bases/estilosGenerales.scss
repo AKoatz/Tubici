@@ -12,7 +12,12 @@ header{
     display: grid;
     grid-template-rows: 125px 40px;
     background-color: map-get($colores , celeste);
-}
+    }
+.menuHamb{
+        padding-top: 0 !important;
+        z-index: 500;
+    }
+
 #logo{
         @include logo (flex, center, center);
         background-color: map-get($colores , logo);
